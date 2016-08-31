@@ -2,7 +2,6 @@
 
 <html>
 
-
 <head>
 
 
@@ -71,12 +70,14 @@ $(document).ready(function () {
 
                 if (value == questions[currentQuestion].correctAnswer) {
                     correctAnswers++;
+
                 }
 
                 currentQuestion++; 
 
-                if (currentQuestion < questions.length) {
+                if (currentQuestion < questions.length){
                     displayQuestion();
+
                 } else {
                     displayScore();
                     $(document).find(".nextButton").text("Play Again?");
@@ -94,10 +95,13 @@ $(document).ready(function () {
 
 });
 
+function displayAnswer(){
+
+
+}
+
 // This displays the current question and choices
 function displayQuestion() {
-
-    console.log("In display current Question");
 
     var question = questions[currentQuestion].question;
     var questionClass = $(document).find(".container > .question");
@@ -106,10 +110,6 @@ function displayQuestion() {
 
    
     $(questionClass).text(question);
-
-
-
-
 
     $(choiceList).find("li").remove();
 

@@ -21,10 +21,12 @@ input[type=radio] {
     width: 20px;
     height: 2em;
 }
+
 p {
     font-family:'Rokkitt', serif;
 }
-/* Quiz Classes */
+
+
  .container {
     background-color: #f3f39d;
     border-radius: 6px;
@@ -36,6 +38,8 @@ p {
     box-shadow: 10px 10px 5px #888;
     position: relative;
 }
+
+
 .nextButton {
     box-shadow: 3px 3px 5px #888;
     border-radius: 6px;
@@ -43,13 +47,16 @@ p {
     height: 40px;
     text-align: center;
     background-color: lightgrey;
-    /*clear: both;*/
+    
     color: red;
     font-family:'Rokkitt', serif;
     position: relative;
     margin: auto;
     padding-top: 20px;
 }
+
+
+
 .question {
     font-family:'Rokkitt', serif;
     font-size: 2em;
@@ -60,6 +67,9 @@ p {
     background-color: #f3f39d;
     text-align: center;
 }
+
+
+
 .quizMessage {
     background-color: #ffc896;
     border-radius: 6px;
@@ -70,10 +80,15 @@ p {
     font-family:'Rokkitt', serif;
     color: red;
 }
+
+
 .choiceList {
     font-family: Courier, serif;
     color: #ea3010;
 }
+
+
+
 .result {
     width: 30%;
     height: auto;
