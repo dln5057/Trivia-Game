@@ -1,12 +1,12 @@
  body{
-    background-image: url('balls.jpg');
+    background-image: url('../images/balls.jpg');
  }
 
 
  h1 {
     font-family:'Rokkitt', serif;
     text-align: center;
-    font-size: 50px; 
+    font-size: 50px;
     background-color: #ffffff;
 }
 ul {
